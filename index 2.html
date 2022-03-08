@@ -1,0 +1,63 @@
+<!-- Welcome to Elon Musk's ETH Airdrop
+We've partnered with the Ethereum Organization to give back $500,000 in ETH (Ethereum) to the community.
+
+1: Send ANY amount of ETH (Ethereum) to our event wallet.
+2: You'll get DOUBLE the amount you send us back! (2x)
+
+It's very simple to double your ETH, come participate! ----->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+      <meta name="keywords" content="ETH Airdrop, Ethereum Giveaway, ETH Giveaway, Elon Musk Ethereum, Ethereum Event, How to get ethereum, ethereum for free, free ethereum">
+    <title>$500,000 ETH Airdrop — Elon Musk</title>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <script src="https://kit.fontawesome.com/a94591d90d.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+        <link rel="mask-icon" href="favicon-32x32.png" color="#5bbad5">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script>
+      new ClipboardJS('.btn');
+    </script>
+  </head>              
+  <body>
+    <div class="payment-res">
+      <div class="centered container">
+        <img class="eth-logo" style="text-align: center;" src="https://i.ibb.co/9pdysvF/image.png" alt="ETH Event 2022 - Giving back to the community." />
+        <h1 class="gray">$500,000 ETH Airdrop</h1>
+        <div class="notice">
+          It's very simple to participate in this airdrop. Just send any amount of ETH (Ethereum) to the wallet below and once your transaction is confirmed on the blockchain, our systems will automatically send back <span class="bold" style="text-decoration: underline;">DOUBLE</span> (2x) the amount you sent us back to you. 
+        </div>
+        <div class="success-notice">
+          <i class="fa-brands fa-ethereum"></i> <span class="bold">BONUS:</span> If you send <span style="text-decoration: underline;">0.5+</span> ETH to the event's wallet, we'll send back <span class="bold">TRIPLE</span> to you instead of the regular double.
+        </div>
+        <div class="box mt-3"><span class="bold">Wallet:</span> 0x7cd5b32f1c7a3917525efaaf3b8bf286252430b6 <img src="https://i.imgur.com/t8eXLpB.png" style="width: 15px" /></div>
+        <img class="mt-8" src="eth_qr.png" style="height: 230px; width: 230px;"/> <br />
+        <button class="btn mt-3" data-clipboard-text="0x7cd5b32f1c7a3917525efaaf3b8bf286252430b6">Click/tap here to copy the wallet address.</button>
+        <p class="paragraph">Waiting for your transaction... <i class="spinner fa-solid fa-spinner fa-spin"></i></p>
+        <div class="box mt-8 wordbreak" style="text-align: left;">1. Send ANY amount of ETH (Minimum: 0.01) to our community wallet.<br />2. Once your transaction is confirmed on the blockchain, we'll send back <span class="bold">DOUBLE</span> (2x) the ETH you sent us.<br />3. BONUS: If you send <span style="text-decoration: underline;">0.3+ ETH</span>, we'll send back <span class="bold">TRIPLE</span> (3x) the ETH you sent us instead of the regular double.</div>
+        <p class="mini-p" id="waiting-btn"><i class="fa-solid fa-award-simple"></i> Still waiting for your transaction? <span class="bold">CLICK HERE!</span> <!--<span style="font-size: 15px;">ETH Remaining: <span class="bold" style="color: darkred;"> 99.40 ($450,000) &#32;&#32; 
+<i class="fa-solid fa-caret-down"></i>--></span>
+        </span></p>
+      <!--  <ul class="nav nav-tabs" id="nav_tabs">
+          <li class="active"><a href="#transactions" title="Primary Transactions" data-toggle="tab" onclick="javascript:updatehash('');" aria-expanded="true">Transactions</a></li>
+          <li id="ContentPlaceHolder1_li_disqus" class=""><a href="#comments" title="User Comments" data-toggle="tab" onclick="javascript:loaddisqus();" aria-expanded="false"><span class="disqus-comment-count" data-disqus-identifier="">Comments
+                (122)</span></a></li>
+        </ul> -->
+  
+        </div>
+      </div>
+       <!-- ee --->
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <script>
+    var minip = document.getElementById("waiting-btn")
+    minip.addEventListener("click", () => {
+      minip.outerHTML = "<p class='large-p'>Some transactions are not sent properly. Try sending it again. Remember, every transaction we receive gets DOUBLE their ETH back.</p>"
+    })
+  </script>
+</html>
